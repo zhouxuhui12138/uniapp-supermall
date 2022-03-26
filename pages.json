@@ -1,0 +1,70 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "蘑菇街",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/cart/cart",
+		"style": {
+			"navigationBarTitleText": "购物车",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/cartgory/cartgory",
+		"style": {
+			"navigationBarTitleText": "分类",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/user/user",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/detail/detail",
+		"style": {
+			"navigationBarTitleText": "详情",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"tabBar": {
+		"color": "#000000",
+		"backgroundColor": "#f6f6f6",
+		"selectedColor": "#fe6f8a",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/img/tabbar/home.svg",
+				"selectedIconPath": "static/img/tabbar/home_active.svg"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/cartgory/cartgory",
+				"iconPath": "static/img/tabbar/category.svg",
+				"selectedIconPath": "static/img/tabbar/category_active.svg"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/img/tabbar/shopcart.svg",
+				"selectedIconPath": "static/img/tabbar/shopcart_active.svg"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/img/tabbar/profile.svg",
+				"selectedIconPath": "static/img/tabbar/profile_active.svg"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "蘑菇街",
+		"navigationBarBackgroundColor": "#ff8198",
+		"backgroundColor": "#F8F8F8"
+	}
+}
