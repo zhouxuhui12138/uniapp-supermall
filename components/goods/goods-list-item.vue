@@ -1,7 +1,7 @@
 <template>
 	<view class="goods-list-item" @click="goDetail(goods.iid)">
 		<!-- 图片 -->
-		<image :src="goods.show.img" lazy-load="true" mode="widthFix"></image>
+		<image :src="src" :lazy-load="true" mode="widthFix"></image>
 		<!-- 商品信息 -->
 		<view class="goods-info">
 			<view class="hide-text">{{ goods.title }}</view>
@@ -27,6 +27,11 @@
 				uni.navigateTo({
 					url: `/pages/detail/detail?iid=${id}`
 				})
+			}
+		},
+		computed: {
+			src() {
+				return this.goods.image || this.goods.show.img
 			}
 		}
 	}

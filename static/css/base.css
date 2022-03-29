@@ -49,14 +49,6 @@ a {
 	zoom: 1;
 }
 
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-}
-
 /* 文字溢出隐藏 */
 .hide-text {
 	overflow: hidden;

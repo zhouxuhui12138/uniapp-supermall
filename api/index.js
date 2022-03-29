@@ -25,3 +25,10 @@ export const GetGoodsDetail = (id) => {
 	})
 }
 
+// 获取商品详情推荐数据
+export const GetRecommend = () => {
+	return request({
+		url: `/recommend`,
+	})
+}
+

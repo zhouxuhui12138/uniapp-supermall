@@ -1,6 +1,6 @@
 <template>
 	<view class="detail-nav">
-		<view class="nav" v-for="(item, index) in list" :key="index" @click="isActive = index">
+		<view class="nav" v-for="(item, index) in list" :key="index" @click="navClick(index)">
 			<text :class="{active: isActive === index}">{{ item }}</text>
 		</view>
 	</view>
@@ -17,6 +17,12 @@
 		data() {
 			return {
 				isActive: 0
+			}
+		},
+		methods: {
+			navClick(index) {
+				this.isActive = index
+				this.$emit('change', index)
 			}
 		}
 	}

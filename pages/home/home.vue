@@ -1,7 +1,7 @@
 <template>
 	<view class="home">
 		<!-- 可滚动区域 -->
-		<scroll-view scroll-y="true" class="scroll" @scroll="scroll" @scrolltolower="loadMore" :scroll-top="scrollTop">
+		<scroll-view :scroll-y="true" class="scroll" @scroll="scroll" @scrolltolower="loadMore" :scroll-top="scrollTop"  :scroll-with-animation="true">
 			<!-- 轮播图 -->
 			<HomeSwiper :banners="banners" />
 			<!-- 推荐数据 -->
@@ -184,10 +184,6 @@ export default {
 			right: 0;
 			left: 0;
 			z-index: 999;
-		}
-
-		.aaa {
-			height: 2000rpx;
 		}
 	}
 }

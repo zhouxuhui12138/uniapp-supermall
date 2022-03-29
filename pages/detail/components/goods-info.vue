@@ -30,13 +30,13 @@ export default {
 			default: () => []
 		}
 	},
-	mounted() {
-		// 商家承诺最多显示四条信息
-		if (this.goodsInfo[2]?.length > 4) {
-			console.log(123)
-			this.goodsInfo[2] = this.goodsInfo[2].slice(0, 3)
+	watch: {
+		goodsInfo(newVal, oldVal) {
+			// 商家承诺最多显示四条信息
+			if (newVal[2]?.length > 4) {
+				this.goodsInfo[2] = newVal[2].slice(1, 5)
+			}
 		}
-		console.log(this.goodsInfo)
 	}
 }
 </script>
