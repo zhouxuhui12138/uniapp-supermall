@@ -8,8 +8,8 @@ export default {
 
 <script>
 export default {
+	// 储存全局变量的位置
   globalData: {
-    text: "全局变量",
   },
 };
 </script>
