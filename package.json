@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "dayjs": "^1.11.0"
+    "dayjs": "^1.11.0",
+    "vuex-persistedstate": "^4.1.0"
   }
 }

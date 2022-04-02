@@ -93,8 +93,9 @@ export default {
 					text: '客服'
 				},
 				{
-					icon: 'shop',
-					text: '店铺'
+					icon: 'cart',
+					text: '购物车',
+					info: this.$store.getters.cartListLength
 				},
 				{
 					icon: 'star',
@@ -126,15 +127,21 @@ export default {
 	methods: {
 		// 客服店铺收藏发生点击
 		onClick(e) {
-			if (e.index === 2) {
-				// 收藏
-				this.options[e.index].icon = this.options[e.index].icon === 'star-filled' ? 'star' : 'star-filled'
-			} else {
-				uni.showToast({
-					title: `点击${e.content.text}`,
-					icon: 'none'
+			// 购物车
+			if (e.index === 1) {
+				return uni.switchTab({
+					url: '/pages/cart/cart'
 				})
 			}
+			// 收藏
+			if (e.index === 2) {
+				return (this.options[e.index].icon = this.options[e.index].icon === 'star-filled' ? 'star' : 'star-filled')
+			}
+			// 点击客服
+			uni.showToast({
+				title: `点击${e.content.text}`,
+				icon: 'none'
+			})
 		},
 		buttonClick(e) {
 			if (e.index === 0) {
@@ -145,8 +152,13 @@ export default {
 					price: this.price,
 					img: this.shopImg
 				}
-				this.$store.dispatch('addCart', cart)
-				
+				this.$store.dispatch('addCart', cart).then(res => {
+					this.options[1].info = this.$store.getters.cartListLength
+					uni.showToast({
+						title: `${res}`,
+						icon: 'success'
+					})
+				})
 			} else {
 				uni.showToast({
 					title: `请添加购物车`,
@@ -159,9 +171,9 @@ export default {
 			const { result: res } = await GetGoodsDetail(iid)
 			// vuex需要的数据
 			this.shopTitle = res.skuInfo.title
-			this.price = res.skuInfo.defaultPrice
+			this.price = res.itemInfo.lowNowPrice
 			this.shopImg = res.itemInfo.topImages[0]
-			
+
 			// 页面渲染需要的数据
 			this.banners = res.itemInfo.topImages
 			this.goodsInfo = [res.itemInfo, res.columns, res.shopInfo.services]
