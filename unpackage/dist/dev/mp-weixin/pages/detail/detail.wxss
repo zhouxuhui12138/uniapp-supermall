@@ -1,0 +1,18 @@
+.detail .detail-nav.data-v-3e159eb4 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 88rpx;
+  z-index: 999;
+  background-color: #fff;
+}
+.detail .scroll.data-v-3e159eb4 {
+  height: 100vh;
+}
+.detail .goods-cart.data-v-3e159eb4 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+

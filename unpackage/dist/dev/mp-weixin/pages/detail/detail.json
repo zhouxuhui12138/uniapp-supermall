@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-goods-nav": "/uni_modules/uni-goods-nav/components/uni-goods-nav/uni-goods-nav",
+    "detail-nav": "/pages/detail/components/detali-nav",
+    "detail-swiper": "/pages/detail/components/detail-swiper",
+    "goods-info": "/pages/detail/components/goods-info",
+    "shop-info": "/pages/detail/components/shop-info",
+    "goods-detail": "/pages/detail/components/goods-detail",
+    "back-top": "/components/back-top/back-top",
+    "detail-params": "/pages/detail/components/detail-params",
+    "detail-comment": "/pages/detail/components/detail-comment",
+    "goods-list": "/components/goods/goods-list"
+  }
+}

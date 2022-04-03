@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "蘑菇街",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "home-swiper": "/pages/home/components/home-swiper",
+    "home-recommend": "/pages/home/components/home-recommend",
+    "tab": "/components/tab/tab",
+    "goods-list": "/components/goods/goods-list",
+    "back-top": "/components/back-top/back-top"
+  }
+}

@@ -1,0 +1,13 @@
+.cart.data-v-0f00adf4 {
+  width: 100%;
+  height: 100vh;
+}
+.cart .empty.data-v-0f00adf4 {
+  text-align: center;
+  margin-top: 50rpx;
+}
+.cart .empty image.data-v-0f00adf4 {
+  width: 60%;
+  height: 400rpx;
+}
+

@@ -1,0 +1,22 @@
+.tab.data-v-10e0b530 {
+  display: flex;
+  height: 100rpx;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.tab .tab-item.data-v-10e0b530 {
+  flex: 1;
+  font-size: 32rpx;
+  text-align: center;
+}
+.tab .active.data-v-10e0b530 {
+  color: #ff8198;
+  font-size: 34rpx;
+}
+.tab .active text.data-v-10e0b530 {
+  padding: 16rpx 10rpx;
+  border-bottom: 6rpx solid #ff8198;
+}
+

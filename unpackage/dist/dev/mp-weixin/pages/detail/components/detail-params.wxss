@@ -1,0 +1,28 @@
+.detail-params.data-v-4fd68e5e {
+  border-top: 8rpx solid #ededed;
+}
+.rule-warp.data-v-4fd68e5e {
+  font-size: 24rpx;
+  padding: 0 20rpx;
+}
+.rule-warp .rule.data-v-4fd68e5e {
+  display: flex;
+}
+.rule-warp .rule .rule-item.data-v-4fd68e5e {
+  width: 20%;
+  padding: 20rpx 8rpx;
+  border-bottom: 2rpx solid #ededed;
+}
+.info-warp.data-v-4fd68e5e {
+  display: flex;
+  font-size: 28rpx;
+  padding: 20rpx 28rpx;
+  border-bottom: 2rpx solid #ededed;
+}
+.info-warp .info-key.data-v-4fd68e5e {
+  width: 18%;
+}
+.info-warp .info-value.data-v-4fd68e5e {
+  color: hotpink;
+}
+

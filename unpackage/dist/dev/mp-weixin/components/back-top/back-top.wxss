@@ -1,0 +1,13 @@
+.back-top.data-v-be7b7238 {
+  position: fixed;
+  right: 40rpx;
+  bottom: 120rpx;
+  z-index: 666;
+  width: 88rpx;
+  height: 88rpx;
+}
+.back-top image.data-v-be7b7238 {
+  width: 100%;
+  height: 100%;
+}
+

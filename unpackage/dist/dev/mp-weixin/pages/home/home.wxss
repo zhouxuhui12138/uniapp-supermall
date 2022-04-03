@@ -1,0 +1,22 @@
+.home.data-v-92bb8f34 {
+  height: 100%;
+  background-color: #eee;
+}
+.home .scroll.data-v-92bb8f34 {
+  height: 100vh;
+}
+.home .scroll .fashion.data-v-92bb8f34 {
+  margin-top: 20rpx;
+}
+.home .scroll .fashion image.data-v-92bb8f34 {
+  width: 100%;
+}
+.home .scroll .home-tab-fixed.data-v-92bb8f34 {
+  position: fixed;
+  width: 100%;
+  top: -1rpx;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+

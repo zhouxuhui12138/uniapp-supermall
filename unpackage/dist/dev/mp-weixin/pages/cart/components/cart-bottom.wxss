@@ -1,0 +1,35 @@
+.bottom.data-v-16253a36 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 100rpx;
+  height: 88rpx;
+  background-color: #f2f2ee;
+  display: flex;
+  font-size: 28rpx;
+}
+.bottom .left.data-v-16253a36 {
+  width: 150rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom .right.data-v-16253a36 {
+  width: 180rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff8198;
+  color: #fff;
+}
+.bottom .center.data-v-16253a36 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40rpx;
+}
+

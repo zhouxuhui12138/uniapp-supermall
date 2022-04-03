@@ -1,0 +1,75 @@
+.shop-info .shop-title.data-v-005244fe {
+  display: flex;
+  align-items: center;
+  padding: 40rpx 20rpx;
+}
+.shop-info .shop-title image.data-v-005244fe {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+  border: 1px solid #ededed;
+}
+.shop-info .content.data-v-005244fe {
+  display: flex;
+  height: 160rpx;
+  color: #333;
+}
+.shop-info .content .left.data-v-005244fe {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-right: 1px solid #ededed;
+}
+.shop-info .content .left .num.data-v-005244fe {
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+.shop-info .content .mr.data-v-005244fe {
+  margin-right: 40rpx;
+}
+.shop-info .content .right.data-v-005244fe {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60rpx;
+}
+.shop-info .content .right view.data-v-005244fe {
+  padding: 6rpx 0;
+}
+.shop-info .content .right view .score.data-v-005244fe {
+  color: green;
+  padding-left: 20rpx;
+}
+.shop-info .content .right view .score-bg.data-v-005244fe {
+  float: right;
+  margin-right: 50rpx;
+  background-color: green;
+  color: #fff;
+}
+.shop-info .content .right view .red.data-v-005244fe {
+  color: red;
+}
+.shop-info .content .right view .red-bg.data-v-005244fe {
+  background-color: red;
+}
+.shop-info .enter-shop.data-v-005244fe {
+  width: 100%;
+  height: 110rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop-info .enter-shop view.data-v-005244fe {
+  font-size: 24rpx;
+  background-color: #ededed;
+  height: 50rpx;
+  width: 200rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+

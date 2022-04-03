@@ -2,20 +2,36 @@
 	<view class="bottom">
 		<view class="left">
 			<label>
-				<checkbox :checked="$store.getters.cartListAllSelected" @click="allChecked" /><text>全选</text>
+				<checkbox :checked="$store.getters.cartListAllSelected" @click="allChecked" />
+				<text>全选</text>
 			</label>
 		</view>
-		<view class="center">总计</view>
-		<view class="right">结算</view>
+		<view class="center">总计: <text style="color: red; font-size: 32rpx;">￥{{ totalPrice }}</text></view>
+		<view class="right">结算({{ selectedShopLength }})</view>
 	</view>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
 	data() {
 		return {
 			ischeck: true
 		}
+	},
+	computed: {
+		...mapState(['cartList']),
+		// 选中的商品长度
+		selectedShopLength() {
+			return this.cartList.filter(item => item.selected).length
+		},
+		// 选中商品的总价格
+		totalPrice() {
+			return this.cartList.filter(item => item.selected).reduce((p, c) => p + (c.price * c.count), 0)
+		}
+	},
+	created() {
+		console.log(this.cartList)
 	},
 	methods: {
 		allChecked() {
@@ -58,8 +74,9 @@ export default {
 		flex: 1;
 		height: 100%;
 		display: flex;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: center;
+		margin-left: 40rpx;
 	}
 }
 </style>

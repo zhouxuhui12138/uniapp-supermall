@@ -180,7 +180,7 @@ export default {
 		.home-tab-fixed {
 			position: fixed;
 			width: 100%;
-			top: 88rpx;
+			top: -1rpx;
 			right: 0;
 			left: 0;
 			z-index: 999;

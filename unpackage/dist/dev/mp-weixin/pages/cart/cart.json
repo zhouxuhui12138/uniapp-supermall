@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "购物车",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "cart-bottom": "/pages/cart/components/cart-bottom",
+    "cart-list-item": "/pages/cart/components/cart-list-item"
+  }
+}

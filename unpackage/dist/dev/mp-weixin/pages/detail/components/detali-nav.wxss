@@ -1,0 +1,22 @@
+.detail-nav.data-v-9ccde956 {
+  display: flex;
+  width: 100%;
+  height: 88rpx;
+  background-color: #fff;
+  padding: 0 40rpx;
+}
+.detail-nav .nav.data-v-9ccde956 {
+  flex: 1;
+  height: 88rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+}
+.detail-nav .active.data-v-9ccde956 {
+  transition: all 0.3s;
+  color: hotpink;
+  padding: 10rpx 10rpx;
+  border-bottom: 6rpx solid hotpink;
+}
+

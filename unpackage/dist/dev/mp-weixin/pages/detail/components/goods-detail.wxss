@@ -1,0 +1,30 @@
+.goods-detail.data-v-dd161308 {
+  font-size: 28rpx;
+}
+.goods-detail .top-line.data-v-dd161308 {
+  width: 200rpx;
+  height: 2rpx;
+  background-color: #333;
+  margin-left: 10rpx;
+}
+.goods-detail .bom-line.data-v-dd161308 {
+  float: right;
+  width: 200rpx;
+  height: 2rpx;
+  margin-right: 10rpx;
+  background-color: #333;
+}
+.goods-detail .desc.data-v-dd161308 {
+  padding: 20rpx 30rpx;
+  line-height: 40rpx;
+  text-indent: 10px;
+}
+.goods-detail .detail text.data-v-dd161308 {
+  padding-left: 40rpx;
+  padding-bottom: 20rpx;
+}
+.goods-detail .detail image.data-v-dd161308 {
+  width: 100%;
+  padding: 10rpx;
+}
+

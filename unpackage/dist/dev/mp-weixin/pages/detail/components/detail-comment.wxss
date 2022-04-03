@@ -1,0 +1,38 @@
+.comment.data-v-76cc2792 {
+  border-top: 8rpx solid #ededed;
+  padding: 0 16rpx;
+  font-size: 28rpx;
+}
+.comment .title.data-v-76cc2792 {
+  display: flex;
+  height: 74rpx;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #ededed;
+}
+.comment .content .user-info.data-v-76cc2792 {
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+}
+.comment .content .user-info image.data-v-76cc2792 {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.comment .content .text.data-v-76cc2792 {
+  text-indent: 20rpx;
+}
+.comment .content .goods-info.data-v-76cc2792 {
+  color: #999;
+  margin: 8rpx 0;
+}
+.comment .content .goods-info .time.data-v-76cc2792 {
+  margin-right: 20rpx;
+}
+.comment .content .comment-img image.data-v-76cc2792 {
+  width: 120rpx;
+  height: 120rpx;
+}
+

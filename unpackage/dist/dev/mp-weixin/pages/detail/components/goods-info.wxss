@@ -1,0 +1,52 @@
+.goods-info .title.data-v-e12a95ce {
+  padding: 20rpx;
+  font-size: 32rpx;
+  color: #111;
+}
+.goods-info .price.data-v-e12a95ce {
+  display: flex;
+  padding: 0 20rpx;
+  align-items: center;
+}
+.goods-info .price .new-price.data-v-e12a95ce {
+  color: #ff8aa0;
+  font-size: 44rpx;
+}
+.goods-info .price .old-price.data-v-e12a95ce {
+  font-size: 30rpx;
+  margin: 0 20rpx;
+  text-decoration: line-through;
+}
+.goods-info .price .discount.data-v-e12a95ce {
+  height: 40rpx;
+  border-radius: 20rpx;
+  background-color: hotpink;
+  color: #fff;
+  line-height: 40rpx;
+  font-size: 24rpx;
+}
+.goods-info .onther.data-v-e12a95ce {
+  display: flex;
+  padding: 20rpx;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #ededed;
+}
+.goods-info .onther view.data-v-e12a95ce {
+  flex: 1;
+}
+.goods-info .promise.data-v-e12a95ce {
+  display: flex;
+  height: 90rpx;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx;
+  font-size: 28rpx;
+  border-bottom: 10rpx solid #ededed;
+}
+.goods-info .promise image.data-v-e12a95ce {
+  width: 20rpx;
+  height: 20rpx;
+}
+
