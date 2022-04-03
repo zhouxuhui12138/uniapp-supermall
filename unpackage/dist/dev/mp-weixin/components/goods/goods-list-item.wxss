@@ -2,6 +2,8 @@
   width: 48%;
   font-size: 24rpx;
   padding: 6rpx 0;
+  display: inline-block;
+  margin: 0 4rpx;
 }
 .goods-list-item image.data-v-77183547 {
   width: 100%;

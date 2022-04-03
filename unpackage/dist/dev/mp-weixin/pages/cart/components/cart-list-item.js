@@ -82,7 +82,8 @@ var _default2 =
 
 
   methods: {
-    isChecked: function isChecked(checked) {var
+    isChecked: function isChecked(checked) {
+      console.log(this.$store.getters.cartListAllSelected);var
       iid = this.list.iid;
       var selected = !checked;
       this.$store.commit('cartSelectedChange', { iid: iid, selected: selected });

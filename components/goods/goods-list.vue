@@ -24,8 +24,13 @@
 	.goods-list {
 		width: 100%;
 		margin-top: 2rpx;
+		/* #ifdef H5 */
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
+		/* #endif */
+		/* #ifdef MP-WEIXIN */
+		text-align: center;
+		/* #endif */
 	}
 </style>

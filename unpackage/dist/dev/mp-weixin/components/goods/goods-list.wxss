@@ -1,8 +1,6 @@
 .goods-list.data-v-0443996e {
   width: 100%;
   margin-top: 2rpx;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  text-align: center;
 }
 

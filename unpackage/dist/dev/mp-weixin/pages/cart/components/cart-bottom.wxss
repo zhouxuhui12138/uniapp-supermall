@@ -2,7 +2,7 @@
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 100rpx;
+  bottom: 0;
   height: 88rpx;
   background-color: #f2f2ee;
   display: flex;

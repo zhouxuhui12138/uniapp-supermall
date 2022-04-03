@@ -30,9 +30,10 @@ export default {
 	},
 	methods: {
 		isChecked(checked) {
+			console.log(this.$store.getters.cartListAllSelected)
 			const { iid } = this.list
 			const selected = !checked
-			this.$store.commit('cartSelectedChange', { iid, selected})
+			this.$store.commit('cartSelectedChange', { iid, selected })
 		}
 	}
 }
@@ -65,7 +66,7 @@ export default {
 			font-size: 32rpx;
 			padding: 0rpx 10rpx;
 			height: 100%;
-			
+
 			// 溢出显示省略号
 			overflow: hidden;
 			display: -webkit-box;

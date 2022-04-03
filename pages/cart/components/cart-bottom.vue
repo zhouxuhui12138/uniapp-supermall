@@ -2,11 +2,14 @@
 	<view class="bottom">
 		<view class="left">
 			<label>
-				<checkbox :checked="$store.getters.cartListAllSelected" @click="allChecked" />
+				<checkbox :checked="isAllCheck" @click="allChecked" />
 				<text>全选</text>
 			</label>
 		</view>
-		<view class="center">总计: <text style="color: red; font-size: 32rpx;">￥{{ totalPrice }}</text></view>
+		<view class="center">
+			总计:
+			<text style="color: red; font-size: 32rpx;">￥{{ totalPrice }}</text>
+		</view>
 		<view class="right">结算({{ selectedShopLength }})</view>
 	</view>
 </template>
@@ -27,11 +30,14 @@ export default {
 		},
 		// 选中商品的总价格
 		totalPrice() {
-			return this.cartList.filter(item => item.selected).reduce((p, c) => p + (c.price * c.count), 0)
+			return this.cartList.filter(item => item.selected).reduce((p, c) => p + c.price * c.count, 0)
+		},
+		// 控制全选的状态
+		isAllCheck() {
+			return this.$store.getters.cartListAllSelected
 		}
 	},
 	created() {
-		console.log(this.cartList)
 	},
 	methods: {
 		allChecked() {
@@ -47,7 +53,12 @@ export default {
 	position: fixed;
 	left: 0;
 	right: 0;
+	/* #ifdef H5 */
 	bottom: 100rpx;
+	/* #endif */
+	/* #ifdef MP-WEIXIN */
+	bottom: 0;
+	/* #endif */
 	height: 88rpx;
 	background-color: #f2f2ee;
 	display: flex;

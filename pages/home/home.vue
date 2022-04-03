@@ -1,7 +1,14 @@
 <template>
 	<view class="home">
 		<!-- 可滚动区域 -->
-		<scroll-view :scroll-y="true" class="scroll" @scroll="scroll" @scrolltolower="loadMore" :scroll-top="scrollTop"  :scroll-with-animation="true">
+		<scroll-view
+			:scroll-y="true"
+			class="scroll"
+			@scroll="scroll"
+			@scrolltolower="loadMore"
+			:scroll-top="scrollTop"
+			:scroll-with-animation="true"
+		>
 			<!-- 轮播图 -->
 			<HomeSwiper :banners="banners" />
 			<!-- 推荐数据 -->
@@ -13,7 +20,7 @@
 			<!-- 商品列表 -->
 			<GoodsList :list="list" />
 		</scroll-view>
-		
+
 		<!-- 返回顶部 -->
 		<BackTop v-show="backTopIsShow" @click.native="backTop" />
 	</view>
@@ -180,7 +187,12 @@ export default {
 		.home-tab-fixed {
 			position: fixed;
 			width: 100%;
+			/* #ifdef H5 */
+			top: 88rpx;
+			/* #endif */
+			/* #ifdef MP-WEIXIN */
 			top: -1rpx;
+			/* #endif */
 			right: 0;
 			left: 0;
 			z-index: 999;

@@ -42,6 +42,10 @@
 		width: 48%;
 		font-size: 24rpx;
 		padding: 6rpx 0;
+		/* #ifdef MP-WEIXIN */
+		display: inline-block;
+		margin: 0 4rpx;
+		/* #endif */
 		image {
 			width: 100%;
 			height: 100%;
