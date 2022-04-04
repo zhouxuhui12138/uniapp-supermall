@@ -70,6 +70,7 @@ const store = new Vuex.Store({
 				getItem: (key) => uni.getStorageSync(key), // 获取  
 				setItem: (key, value) => uni.setStorageSync(key, value), // 存储  
 				removeItem: (key) => uni.removeStorageSync(key) // 删除  
+				
 			}
 		})
 	]

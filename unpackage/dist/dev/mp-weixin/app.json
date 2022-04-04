@@ -2,7 +2,7 @@
   "pages": [
     "pages/home/home",
     "pages/cart/cart",
-    "pages/cartgory/cartgory",
+    "pages/category/category",
     "pages/user/user",
     "pages/detail/detail"
   ],
@@ -26,7 +26,7 @@
       },
       {
         "text": "分类",
-        "pagePath": "pages/cartgory/cartgory",
+        "pagePath": "pages/category/category",
         "iconPath": "static/img/tabbar/category.png",
         "selectedIconPath": "static/img/tabbar/category_active.png"
       },

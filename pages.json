@@ -15,7 +15,7 @@
       }
     },
     {
-      "path": "pages/cartgory/cartgory",
+      "path": "pages/category/category",
       "style": {
         "navigationBarTitleText": "分类",
         "enablePullDownRefresh": false
@@ -49,7 +49,7 @@
       },
       {
         "text": "分类",
-        "pagePath": "pages/cartgory/cartgory",
+        "pagePath": "pages/category/category",
         "iconPath": "static/img/tabbar/category.png",
         "selectedIconPath": "static/img/tabbar/category_active.png"
       },

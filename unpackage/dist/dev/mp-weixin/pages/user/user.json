@@ -1,5 +1,9 @@
 {
   "navigationBarTitleText": "我的",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "user-info": "/pages/user/components/user-info",
+    "user-moeny": "/pages/user/components/user-moeny",
+    "user-card": "/pages/user/components/user-card"
+  }
 }

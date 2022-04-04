@@ -1,1 +1,1 @@
-<view></view>
+<view class="user"><user-info vue-id="380011e0-1" bind:__l="__l"></user-info><user-moeny vue-id="380011e0-2" bind:__l="__l"></user-moeny><user-card vue-id="380011e0-3" bind:__l="__l"></user-card></view>
