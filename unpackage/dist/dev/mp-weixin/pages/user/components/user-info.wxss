@@ -1,0 +1,28 @@
+.user-info.data-v-5a6ee9d2 {
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  align-items: center;
+  background-color: #ff8198;
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+.user-info .user-img image.data-v-5a6ee9d2 {
+  border-radius: 50%;
+  width: 130rpx;
+  height: 130rpx;
+}
+.user-info .login.data-v-5a6ee9d2 {
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 0 140rpx;
+  background-color: #ff9900;
+  color: #fff;
+}
+.user-info .right.data-v-5a6ee9d2 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 26rpx;
+}
+

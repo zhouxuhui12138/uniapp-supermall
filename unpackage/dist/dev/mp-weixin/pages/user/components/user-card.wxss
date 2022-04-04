@@ -1,0 +1,17 @@
+.card.data-v-4f55ff34 .uni-card__content {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+}
+.card .uni-h6.data-v-4f55ff34 {
+  font-size: 32rpx;
+  margin-left: 20rpx;
+}
+.card .icon.data-v-4f55ff34 {
+  position: relative;
+  top: 10rpx;
+}
+.card .bb.data-v-4f55ff34 {
+  border-bottom: 10rpx solid #ededed;
+}
+

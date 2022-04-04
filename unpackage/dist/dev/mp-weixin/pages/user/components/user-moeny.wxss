@@ -1,0 +1,18 @@
+.money.data-v-79c6539a {
+  display: flex;
+  padding: 60rpx 0;
+  border-bottom: 10rpx solid #ededed;
+}
+.money .item.data-v-79c6539a {
+  flex: 1;
+  text-align: center;
+}
+.money .item .desc.data-v-79c6539a {
+  font-size: 19rpx;
+  margin-top: 20rpx;
+}
+.money .font-color.data-v-79c6539a {
+  font-size: 40rpx;
+  color: #ff8198;
+}
+

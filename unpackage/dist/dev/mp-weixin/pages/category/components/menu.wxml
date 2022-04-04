@@ -1,0 +1,1 @@
+<view class="cate-menu data-v-7b547da0"><block wx:for="{{menuList}}" wx:for-item="item" wx:for-index="index" wx:key="maitKey"><view data-event-opts="{{[['tap',[['menuClick',['$0',index],[[['menuList','maitKey',item.maitKey,'maitKey']]]]]]]}}" class="{{['menu-item','data-v-7b547da0',(isActive===index)?'active':'']}}" bindtap="__e">{{''+item.title+''}}</view></block></view>

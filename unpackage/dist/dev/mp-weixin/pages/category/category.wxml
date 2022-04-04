@@ -1,0 +1,1 @@
+<view class="category data-v-682a9774"><menu class="left-menu data-v-682a9774" vue-id="9d275500-1" menuList="{{menuList}}" data-event-opts="{{[['^change',[['menuChange']]]]}}" bind:change="__e" bind:__l="__l"></menu><sub-category class="right-sub data-v-682a9774" vue-id="9d275500-2" subList="{{subList}}" bind:__l="__l"></sub-category></view>

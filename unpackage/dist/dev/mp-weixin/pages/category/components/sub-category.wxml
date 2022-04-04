@@ -1,0 +1,1 @@
+<view class="sub-category data-v-299f932c"><block wx:for="{{subList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['subClick',['$event']]]]]}}" class="sub-item data-v-299f932c" bindtap="__e"><image src="{{item.image}}" class="data-v-299f932c"></image><view class="data-v-299f932c">{{item.title}}</view></view></block></view>
